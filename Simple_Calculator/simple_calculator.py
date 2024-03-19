@@ -21,7 +21,7 @@ def calculator():
             print("error, please choose a right operation")
     except :
         print('Input a valid number')
-if __name__ == "__main__":
+def main():
     while True:
         calculator()
         print('Want to perform another calcuation - yes/no')
@@ -34,6 +34,8 @@ if __name__ == "__main__":
         else:
             print('no right choice entered,Thank you for using ')
             break
+if __name__ == "__main__":
+    main()
 
 
 
